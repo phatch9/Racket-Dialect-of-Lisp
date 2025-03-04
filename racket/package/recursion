@@ -1,12 +1,11 @@
 
+;; Part 1 Implement a maxNum function.  This function reads in a list of numbers and returns the largest.
+;; Define this function in a recursive manner.
 
-// Part 1 Implement a maxNum function.  This function reads in a list of numbers and returns the largest.
-Define this function in a recursive manner.
-
-Test solution at http://codecheck.it/files/18060406569ovaum1rpro2z1io6yccwcjanLinks to an external site
+;; Test solution at http://codecheck.it/files/18060406569ovaum1rpro2z1io6yccwcjanLinks to an external site
 
 
-// Part 2. Implement the "fizzbuzz" game.  The function counts from 1 to the specified number, returning a
+;; Part 2. Implement the "fizzbuzz" game.  The function counts from 1 to the specified number, returning a
 string with the result.  The rules are:
 
     If a number is divisible by 3 and by 5, instead say "fizzbuzz"
@@ -38,11 +37,10 @@ Test your solution at http://codecheck.it/files/1808270644exxn4wmxe7wi57mqlclnei
             (else (number->string i)))))
       (fizzbuzz-helper (+ i 1) n (string-append acc result (if (= i n) " " " ")))) ; Recursive
       )
-    )
-) ; Recursive
+    ))
 
 
-From: text-adventure.rkt
+; From: text-adventure.rkt
 
 1. Add a player parameter to the one-turn function.
   The head of the list should be the player's name.

@@ -1,0 +1,5 @@
+Develop an interpreter for a small language, called SpartanLang.
+The valid expressions for SpartanLang are given in Figure 1
+SpartanLang supports mutable references.
+The state of these references is maintained in an environment, a mapping of variables to values.
+With mutable references, other language constructs become more useful,such as sequencing operations (e1;e2).

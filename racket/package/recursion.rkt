@@ -31,9 +31,9 @@ Test your solution at http://codecheck.it/files/1808270644exxn4wmxe7wi57mqlclnei
     (else
     (let ((result 
             (cond
-               ((and (zero? (remainder i 3)) (zero? (remainder i 5))) "fizzbuzz") ;; set the condition 
-               ((zero? (remainder i 3)) "fizz")
-               ((zero? (remainder i 5)) "buzz")
+              ((and (zero? (remainder i 3)) (zero? (remainder i 5))) "fizzbuzz") ;; set the condition 
+              ((zero? (remainder i 3)) "fizz")
+              ((zero? (remainder i 5)) "buzz")
             (else (number->string i)))))
       (fizzbuzz-helper (+ i 1) n (string-append acc result (if (= i n) " " " ")))) ; Recursive
       )
